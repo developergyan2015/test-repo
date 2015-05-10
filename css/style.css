@@ -1,0 +1,45 @@
+body{ font-family: 'Open Sans Condensed', sans-serif; }
+img{ max-width:100%; height:auto; vertical-align:middle; }
+
+/*Header Section*/
+.logo-wrap h1 a{ text-decoration:none; color: #000; font-family: 'Playball', cursive; font-size:40px; transition:all ease-in-out 0.4s;-moz-transition:all ease-in-out 0.4s; -ms-transition:all ease-in-out 0.4s; display:inline-block; position:relative;  }
+.logo-wrap h1 a:after{ content:''; height:1px; width:0%; background:#000; position:absolute; bottom:0px; left:0px; transition:all ease-in-out 0.6s;-moz-transition:all ease-in-out 0.6s; -ms-transition:all ease-in-out 0.6s;  }
+.logo-wrap h1 a:hover{ color:#D74422; }
+.logo-wrap h1 a:hover:after{ width:100%; background:#D74422;   }
+.logo-wrap h1{ text-align:center; margin:0px; padding-top:15px; }
+h2.subtitle{ font-weight:300; text-align:center;   border-bottom: 1px solid #ccc;  padding-bottom: 5px; font-size:26px; font-family: 'Open Sans Condensed', sans-serif; margin-bottom:0px; padding-bottom:15px;  } 
+.top-header { background: #F8F8F8;}
+.nav-outer .navbar{ margin:0px;}
+
+/*Banner Section*/
+.banner-section .flexslider{ border:none; padding:0px; margin-bottom:0px;  }
+.banner-section .flex-control-nav{ bottom:0px; }
+
+/*Introduction Section*/
+.intro-section { padding:20px 0px 40px; }
+.intro-section h2{ font-weight:600; text-transform:uppercase;   border-bottom: 1px solid #333; }
+.intro-section p{/* font-family: 'Raleway', sans-serif;*/ font-weight:400; font-size:16px; color:#000; }
+.intro-section .img-wrap {  padding: 8px; background: #F8F8F8;   box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.32); -moz-box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.32); -ms-box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.32); float:right; max-width:400px; }
+.intro-section a.more { display: inline-block; padding: 5px 20px; background: #E8E8E8; color: #000; text-decoration:none; }
+
+/*Skills Section*/
+.skills{ background:#E8E8E8; padding:20px 40px; }
+.skills h2{ font-weight:600; text-transform:uppercase;  text-align:center; position:relative;  }
+.skills h2 span{ position:relative; transition:all ease-in-out 0.6s;-moz-transition:all ease-in-out 0.6s; -ms-transition:all ease-in-out 0.6s; }
+.skills h2 span:after{  content:''; height:1px; width:0%; background:#000; position:absolute; bottom:0px; left:0px; transition:all ease-in-out 0.6s;-moz-transition:all ease-in-out 0.6s; -ms-transition:all ease-in-out 0.6s;  }
+.skills:hover h2 span{ color:#D74422; }
+.skills:hover h2 span:after{ width:100%; background:#D74422;   }
+.skills .skill { text-align:center; }
+.skills .skill a i.fa { font-size:60px; color:#000; transition:all ease-in-out 0.6s;-moz-transition:all ease-in-out 0.6s; -ms-transition:all ease-in-out 0.6s; }
+.skills .skill h3{ font-weight:600; text-transform:uppercase; }
+.skills .skill a {  display: inline-block; border-radius: 50%; position:relative; padding: 15px;}
+.skills .skill a:after{ position:absolute; top:0px; left:0px; width:100%; height:100%; content:''; border:0px solid #000; transition:all linear 0.5s; }
+.skills .skill a:hover:after{ border-width:1px;   }
+.skill:hover a i.fa{ color:#3373A8; }
+
+
+/*Projects Section*/
+.projects{ padding:20px 0px 40px; }
+.projects h2{ font-weight:600; text-transform:uppercase;  text-align:center;  }
+.projects > .row{ margin:0px; }
+.projects > .row > [class*='col-']{ padding:0px; }
